@@ -15,7 +15,10 @@ app.use('/past', require('./router/past.js'))
 app.use('/sp', require('./router/simplepast.js'))
 app.use('/present', require('./router/present.js'))
 app.use('/spr', require('./router/simplepresent.js'))
-app.use('/spr', require('./router/presentcontinuous.js'))
+app.use('/pc', require('./router/presentcontinuous.js'))
+app.use('/pp', require('./router/presentperfect.js'))
+app.use('/future', require('./router/future.js'))
+app.use('/sf', require('./router/simplefuture.js'));
 
 //Listener
 app.listen(PORT, () => {

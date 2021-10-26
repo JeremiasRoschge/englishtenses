@@ -39,6 +39,14 @@ body {
     font-weight: bold;
 }
 
+.index-table {
+    margin-left: 25%;
+    font-size: 30px;
+    color: #4b4b4b;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
 .tenses-container {
     width: 100%;
     max-width: 1200px;
@@ -56,6 +64,7 @@ body {
     box-shadow: 0 2px 2px rgba(0,0,0,0.2);
     overflow: hidden;
     margin-top: 20px;
+    margin-left: 7px;
     text-align: center;
     transition: all 0.25s;
 
